@@ -1,0 +1,805 @@
+[18-Jun-2025 06:40:55 UTC] PHP Fatal error:  Class App\Repositories\Staff\StaffRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Staff\StaffRepositoryInterface::getState) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 7
+[18-Jun-2025 10:35:12 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data, $request) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:21:57 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:22:18 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:22:23 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:22:26 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:22:29 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:22:34 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:22:38 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:22:47 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:23:37 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[18-Jun-2025 11:23:41 UTC] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::create(array $data, $request) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::create(array $data) in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 23
+[19-Jun-2025 05:34:38 UTC] PHP Parse error:  syntax error, unexpected identifier "health", expecting ")" in /home/revateam/trudataa.revateam.com/bootstrap/app.php on line 15
+[19-Jun-2025 07:36:54 UTC] PHP Fatal error:  Cannot declare class App\Http\Requests\area\UserRequest, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Requests/area/AreaRequest.php on line 10
+[20-Jun-2025 12:51:52 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Area\AreaRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Area\AreaRepositoryInterface::delete) in /home/revateam/trudataa.revateam.com/app/Repositories/Area/AreaRepository.php on line 11
+[20-Jun-2025 12:51:52 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Area\AreaRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Area\AreaRepositoryInterface::delete) in /home/revateam/trudataa.revateam.com/app/Repositories/Area/AreaRepository.php on line 11
+[20-Jun-2025 15:02:36 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\City\CityRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\City\CityRepositoryInterface::getState) in /home/revateam/trudataa.revateam.com/app/Repositories/City/CityRepository.php on line 7
+[20-Jun-2025 15:45:20 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Requests\city\AreaRequest, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Requests/city/CityRequest.php on line 10
+[24-Jun-2025 16:18:43 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\User as User because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/TeamsController.php on line 13
+[24-Jun-2025 18:23:35 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 18:23:35 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 18:33:38 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Requests\leaveType\StateRequest, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Requests/leaveType/LeaveTypeRequest.php on line 10
+[24-Jun-2025 18:34:51 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\LeaveType\LeaveTypeRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\LeaveType\LeaveTypeRepositoryInterface::create) in /home/revateam/trudataa.revateam.com/app/Repositories/LeaveType/LeaveTypeRepository.php on line 7
+[24-Jun-2025 18:34:52 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\LeaveType\LeaveTypeRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\LeaveType\LeaveTypeRepositoryInterface::create) in /home/revateam/trudataa.revateam.com/app/Repositories/LeaveType/LeaveTypeRepository.php on line 7
+[25-Jun-2025 10:55:50 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\LeaveType\LeaveTypeRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\LeaveType\LeaveTypeRepositoryInterface::find) in /home/revateam/trudataa.revateam.com/app/Repositories/LeaveType/LeaveTypeRepository.php on line 7
+[25-Jun-2025 14:12:28 Asia/Kolkata] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/revateam/trudataa.revateam.com/storage/framework/views/a546034efdc43fd0e39c1c660418fb16.php on line 66
+[25-Jun-2025 14:14:41 Asia/Kolkata] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/revateam/trudataa.revateam.com/storage/framework/views/a546034efdc43fd0e39c1c660418fb16.php on line 76
+[25-Jun-2025 17:14:27 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Regularize\RegularizeRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Regularize\RegularizeRepositoryInterface::leavestatusupdate) in /home/revateam/trudataa.revateam.com/app/Repositories/Regularize/RegularizeRepository.php on line 11
+[26-Jun-2025 15:43:56 Asia/Kolkata] PHP Fatal error:  Declaration of App\Repositories\Staff\StaffRepository::changePassword($id, $password) must be compatible with App\Repositories\Staff\StaffRepositoryInterface::changePassword() in /home/revateam/trudataa.revateam.com/app/Repositories/Staff/StaffRepository.php on line 107
+[26-Jun-2025 15:45:29 Asia/Kolkata] PHP Fatal error:  Could not check compatibility between App\Http\Requests\staff\staffChangePasswordRequest::failedValidation(App\Http\Requests\staff\Validator $validator) and Illuminate\Foundation\Http\FormRequest::failedValidation(Illuminate\Contracts\Validation\Validator $validator), because class App\Http\Requests\staff\Validator is not available in /home/revateam/trudataa.revateam.com/app/Http/Requests/staff/staffChangePasswordRequest.php on line 30
+[26-Jun-2025 15:49:23 Asia/Kolkata] PHP Fatal error:  Could not check compatibility between App\Http\Requests\staff\staffChangePasswordRequest::failedValidation(App\Http\Requests\staff\Validator $validator) and Illuminate\Foundation\Http\FormRequest::failedValidation(Illuminate\Contracts\Validation\Validator $validator), because class App\Http\Requests\staff\Validator is not available in /home/revateam/trudataa.revateam.com/app/Http/Requests/staff/staffChangePasswordRequest.php on line 30
+[26-Jun-2025 15:51:02 Asia/Kolkata] PHP Fatal error:  Could not check compatibility between App\Http\Requests\staff\staffChangePasswordRequest::failedValidation(App\Http\Requests\staff\Validator $validator) and Illuminate\Foundation\Http\FormRequest::failedValidation(Illuminate\Contracts\Validation\Validator $validator), because class App\Http\Requests\staff\Validator is not available in /home/revateam/trudataa.revateam.com/app/Http/Requests/staff/staffChangePasswordRequest.php on line 41
+[30-Jun-2025 11:10:42 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\User as User because the name is already in use in /home/revateam/trudataa.revateam.com/app/Models/Leave.php on line 7
+[30-Jun-2025 11:14:00 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\User as User because the name is already in use in /home/revateam/trudataa.revateam.com/app/Models/Leave.php on line 7
+[30-Jun-2025 05:47:39 UTC] PHP Warning:  POST Content-Length of 69504159 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[30-Jun-2025 05:53:43 UTC] PHP Warning:  POST Content-Length of 69504159 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[30-Jun-2025 18:51:53 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Seller\SellerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Seller\SellerRepositoryInterface::getArea) in /home/revateam/trudataa.revateam.com/app/Repositories/Seller/SellerRepository.php on line 17
+[01-Jul-2025 10:16:00 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Seller\SellerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Seller\SellerRepositoryInterface::getArea) in /home/revateam/trudataa.revateam.com/app/Repositories/Seller/SellerRepository.php on line 17
+[01-Jul-2025 10:27:47 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Seller\SellerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Seller\SellerRepositoryInterface::getArea) in /home/revateam/trudataa.revateam.com/app/Repositories/Seller/SellerRepository.php on line 17
+[01-Jul-2025 10:29:02 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Seller\SellerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Seller\SellerRepositoryInterface::getArea) in /home/revateam/trudataa.revateam.com/app/Repositories/Seller/SellerRepository.php on line 17
+[01-Jul-2025 10:57:07 Asia/Kolkata] PHP Fatal error:  Declaration of App\Repositories\Seller\SellerRepository::getArea($city_id) must be compatible with App\Repositories\Seller\SellerRepositoryInterface::getArea() in /home/revateam/trudataa.revateam.com/app/Repositories/Seller/SellerRepository.php on line 135
+[01-Jul-2025 14:55:17 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Controllers\API\seller\SellerController, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/SellerController.php on line 15
+[01-Jul-2025 18:34:25 Asia/Kolkata] PHP Fatal error:  Cannot use App\Http\Controllers\admin\setting\SubMenuController as SubMenuController because the name is already in use in /home/revateam/trudataa.revateam.com/routes/web.php on line 21
+[01-Jul-2025 19:24:19 Asia/Kolkata] PHP Fatal error:  Trait "PayteR\UseColumnMany" not found in /home/revateam/trudataa.revateam.com/app/Models/permission.php on line 8
+[01-Jul-2025 19:24:35 Asia/Kolkata] PHP Fatal error:  Trait "PayteR\UseColumnMany" not found in /home/revateam/trudataa.revateam.com/app/Models/permission.php on line 8
+[02-Jul-2025 15:58:46 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Category\CategoryRepository contains 5 abstract methods and must therefore be declared abstract or implement the remaining methods (App\Repositories\Category\CategoryRepositoryInterface::getState, App\Repositories\Category\CategoryRepositoryInterface::getCity, App\Repositories\Category\CategoryRepositoryInterface::getAllCity, ...) in /home/revateam/trudataa.revateam.com/app/Repositories/Category/CategoryRepository.php on line 14
+[02-Jul-2025 16:47:56 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Category\CategoryRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Category\CategoryRepositoryInterface::getState) in /home/revateam/trudataa.revateam.com/app/Repositories/Category/CategoryRepository.php on line 14
+[02-Jul-2025 16:51:25 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Category\CategoryRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Category\CategoryRepositoryInterface::getState) in /home/revateam/trudataa.revateam.com/app/Repositories/Category/CategoryRepository.php on line 14
+[02-Jul-2025 16:53:53 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Category\CategoryRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Category\CategoryRepositoryInterface::getState) in /home/revateam/trudataa.revateam.com/app/Repositories/Category/CategoryRepository.php on line 14
+[02-Jul-2025 16:58:22 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Category\CategoryRepository contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (App\Repositories\Category\CategoryRepositoryInterface::query, App\Repositories\Category\CategoryRepositoryInterface::getState) in /home/revateam/trudataa.revateam.com/app/Repositories/Category/CategoryRepository.php on line 14
+[02-Jul-2025 18:26:05 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\admin\category\CategoryController::categorySave() in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/category/CategoryController.php on line 36
+[02-Jul-2025 18:29:09 Asia/Kolkata] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/category/CategoryController.php on line 3
+[03-Jul-2025 16:14:16 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Controllers\admin\SubCategoryController, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/subcategory/SubCategoryController.php on line 9
+[03-Jul-2025 16:16:22 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Controllers\admin\SubCategoryController, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/subcategory/SubCategoryController.php on line 9
+[03-Jul-2025 16:16:37 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Controllers\admin\SubCategoryController, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/subcategory/SubCategoryController.php on line 9
+[03-Jul-2025 16:17:48 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Controllers\admin\SubCategoryController, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/subcategory/SubCategoryController.php on line 9
+[03-Jul-2025 16:18:47 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Controllers\admin\SubCategoryController, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/subcategory/SubCategoryController.php on line 9
+[03-Jul-2025 16:20:20 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Controllers\admin\SubCategoryController, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/subcategory/SubCategoryController.php on line 9
+[03-Jul-2025 16:35:00 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Http\Controllers\admin\SubCategoryController, because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/subcategory/SubCategoryController.php on line 9
+[03-Jul-2025 16:59:10 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Subcategory\SubCategoryRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Subcategory\SubCategoryRepositoryInterface::getState) in /home/revateam/trudataa.revateam.com/app/Repositories/Subcategory/SubCategoryRepository.php on line 7
+[04-Jul-2025 16:05:55 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Varient\VarientRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Varient\VarientRepositoryInterface::getCategory) in /home/revateam/trudataa.revateam.com/app/Repositories/Varient/VarientRepository.php on line 8
+[04-Jul-2025 16:07:08 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Varient\VarientRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Varient\VarientRepositoryInterface::getCategory) in /home/revateam/trudataa.revateam.com/app/Repositories/Varient/VarientRepository.php on line 9
+[04-Jul-2025 16:07:38 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Varient\VarientRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Varient\VarientRepositoryInterface::getCategory) in /home/revateam/trudataa.revateam.com/app/Repositories/Varient/VarientRepository.php on line 9
+[04-Jul-2025 16:09:42 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Varient\VarientRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Varient\VarientRepositoryInterface::getCategory) in /home/revateam/trudataa.revateam.com/app/Repositories/Varient/VarientRepository.php on line 9
+[05-Jul-2025 11:01:18 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\Varient::unit() in /home/revateam/trudataa.revateam.com/app/Models/Varient.php on line 23
+[05-Jul-2025 17:16:36 Asia/Kolkata] PHP Fatal error:  Could not check compatibility between App\Http\Requests\product\ProductRequest::failedValidation(App\Http\Requests\product\Validator $validator) and Illuminate\Foundation\Http\FormRequest::failedValidation(Illuminate\Contracts\Validation\Validator $validator), because class App\Http\Requests\product\Validator is not available in /home/revateam/trudataa.revateam.com/app/Http/Requests/product/ProductRequest.php on line 52
+[05-Jul-2025 17:16:56 Asia/Kolkata] PHP Fatal error:  Could not check compatibility between App\Http\Requests\product\ProductRequest::failedValidation(App\Http\Requests\product\Validator $validator) and Illuminate\Foundation\Http\FormRequest::failedValidation(Illuminate\Contracts\Validation\Validator $validator), because class App\Http\Requests\product\Validator is not available in /home/revateam/trudataa.revateam.com/app/Http/Requests/product/ProductRequest.php on line 52
+[05-Jul-2025 17:17:09 Asia/Kolkata] PHP Fatal error:  Could not check compatibility between App\Http\Requests\product\ProductRequest::failedValidation(App\Http\Requests\product\Validator $validator) and Illuminate\Foundation\Http\FormRequest::failedValidation(Illuminate\Contracts\Validation\Validator $validator), because class App\Http\Requests\product\Validator is not available in /home/revateam/trudataa.revateam.com/app/Http/Requests/product/ProductRequest.php on line 51
+[05-Jul-2025 17:55:50 Asia/Kolkata] PHP Fatal error:  Could not check compatibility between App\Http\Requests\product\ProductRequest::failedValidation(App\Http\Requests\product\Validator $validator) and Illuminate\Foundation\Http\FormRequest::failedValidation(Illuminate\Contracts\Validation\Validator $validator), because class App\Http\Requests\product\Validator is not available in /home/revateam/trudataa.revateam.com/app/Http/Requests/product/ProductRequest.php on line 51
+[07-Jul-2025 12:36:44 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:36:44 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:36:49 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:36:49 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:07 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:07 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:12 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:12 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:20 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:20 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:25 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:25 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:41 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:37:41 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:38:06 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[07-Jul-2025 12:38:06 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[08-Jul-2025 12:45:08 Asia/Kolkata] PHP Fatal error:  Declaration of App\Repositories\Product\ProductRepository::getAllbrand($id) must be compatible with App\Repositories\Product\ProductRepositoryInterface::getAllbrand() in /home/revateam/trudataa.revateam.com/app/Repositories/Product/ProductRepository.php on line 95
+[08-Jul-2025 12:57:32 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/admin/brand/BrandController.php on line 9
+[08-Jul-2025 15:02:35 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Product\ProductRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Product\ProductRepositoryInterface::getDetails) in /home/revateam/trudataa.revateam.com/app/Repositories/Product/ProductRepository.php on line 18
+[14-Jul-2025 13:20:20 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 7
+[14-Jul-2025 14:23:18 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 7
+[14-Jul-2025 14:37:30 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 7
+[14-Jul-2025 14:38:04 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 7
+[14-Jul-2025 15:33:10 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 7
+[14-Jul-2025 16:44:23 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 7
+[14-Jul-2025 16:45:13 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 7
+[16-Jul-2025 09:53:52 UTC] PHP Warning:  POST Content-Length of 9830501 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[16-Jul-2025 09:54:07 UTC] PHP Warning:  POST Content-Length of 10572526 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[16-Jul-2025 09:54:43 UTC] PHP Warning:  POST Content-Length of 10572526 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[28-Jul-2025 12:47:01 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\Order::orderDetails() in /home/revateam/trudataa.revateam.com/app/Models/Order.php on line 30
+[29-Jul-2025 18:56:28 Asia/Kolkata] PHP Fatal error:  Could not check compatibility between App\Http\Requests\bill\BillRequest::failedValidation(App\Http\Requests\bill\Validator $validator) and Illuminate\Foundation\Http\FormRequest::failedValidation(Illuminate\Contracts\Validation\Validator $validator), because class App\Http\Requests\bill\Validator is not available in /home/revateam/trudataa.revateam.com/app/Http/Requests/bill/BillRequest.php on line 47
+[01-Aug-2025 13:23:38 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[01-Aug-2025 13:23:38 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[01-Aug-2025 13:23:48 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[01-Aug-2025 13:23:48 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[02-Aug-2025 13:16:24 Asia/Kolkata] PHP Fatal error:  Class App\Repositories\Bill\BillRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Bill\BillRepositoryInterface::delete) in /home/revateam/trudataa.revateam.com/app/Repositories/Bill/BillRepository.php on line 11
+[04-Aug-2025 14:22:52 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:22:53 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:23:07 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:24:40 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:26:42 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:26:52 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:26:52 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:26:55 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:27:22 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:27:24 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[04-Aug-2025 14:27:26 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Seller as Seller because the name is already in use in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/OrderController.php on line 29
+[05-Aug-2025 18:53:30 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:53:30 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:53:30 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:53:30 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:54:33 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:54:33 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:54:33 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:54:33 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:55:35 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:55:35 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:55:35 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:55:35 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:55:47 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[05-Aug-2025 18:55:47 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[20-Aug-2025 11:52:47 Asia/Kolkata] PHP Fatal error:  Cannot redeclare numberToWords() (previously declared in /home/revateam/trudataa.revateam.com/storage/framework/views/871a683532f05de0302b276e84508df5.php:325) in /home/revateam/trudataa.revateam.com/storage/framework/views/871a683532f05de0302b276e84508df5.php on line 550
+[20-Aug-2025 12:53:53 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[20-Aug-2025 12:53:53 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[20-Aug-2025 15:21:40 Asia/Kolkata] PHP Fatal error:  Cannot use empty array elements in arrays in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/AddCartController.php on line 365
+[20-Aug-2025 15:21:52 Asia/Kolkata] PHP Fatal error:  Cannot use empty array elements in arrays in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/AddCartController.php on line 365
+[20-Aug-2025 15:21:52 Asia/Kolkata] PHP Fatal error:  Cannot use empty array elements in arrays in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/AddCartController.php on line 365
+[22-Aug-2025 12:50:03 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\ProductDetail::varient() in /home/revateam/trudataa.revateam.com/app/Models/ProductDetail.php on line 20
+[22-Aug-2025 12:50:36 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\ProductDetail::varient() in /home/revateam/trudataa.revateam.com/app/Models/ProductDetail.php on line 20
+[22-Aug-2025 12:51:29 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\ProductDetail::varient() in /home/revateam/trudataa.revateam.com/app/Models/ProductDetail.php on line 20
+[25-Aug-2025 11:59:00 Asia/Kolkata] PHP Fatal error:  Trait "App\Http\Requests\product\Illuminate\Validation\Rule" not found in /home/revateam/trudataa.revateam.com/app/Http/Requests/product/ProductRequest.php on line 10
+[25-Aug-2025 11:59:21 Asia/Kolkata] PHP Fatal error:  Trait "App\Http\Requests\product\Illuminate\Validation\Rule" not found in /home/revateam/trudataa.revateam.com/app/Http/Requests/product/ProductRequest.php on line 10
+[25-Aug-2025 16:27:12 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[25-Aug-2025 16:27:13 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[25-Aug-2025 17:54:15 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[25-Aug-2025 17:54:15 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[25-Aug-2025 18:01:00 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[25-Aug-2025 18:01:00 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 10:57:38 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 10:57:38 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 11:00:06 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 11:00:06 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 11:32:18 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 11:32:18 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 11:32:47 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 11:32:47 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 11:36:41 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 11:36:41 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/HtmlDumper.php:113) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 13:16:09 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[27-Aug-2025 13:16:09 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:387) in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(232): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 /home/revateam/trudataa.revateam.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown in /home/revateam/trudataa.revateam.com/vendor/symfony/http-foundation/Response.php on line 322
+[29-Aug-2025 12:46:12 Asia/Kolkata] PHP Fatal error:  Cannot redeclare numberToWords() (previously declared in /home/revateam/trudataa.revateam.com/storage/framework/views/871a683532f05de0302b276e84508df5.php:330) in /home/revateam/trudataa.revateam.com/storage/framework/views/871a683532f05de0302b276e84508df5.php on line 570
+[30-Aug-2025 18:36:48 Asia/Kolkata] PHP Fatal error:  Redefinition of parameter $transaction in /home/revateam/trudataa.revateam.com/app/Http/Controllers/API/HistoryController.php on line 261

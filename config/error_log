@@ -1,0 +1,16 @@
+[25-Aug-2025 11:00:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/revateam/trudataa.revateam.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/revateam/trudataa.revateam.com/config/app.php on line 16
+[25-Aug-2025 11:00:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/revateam/trudataa.revateam.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/revateam/trudataa.revateam.com/config/app.php on line 16
+[25-Aug-2025 11:00:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/revateam/trudataa.revateam.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/revateam/trudataa.revateam.com/config/app.php on line 16
+[25-Aug-2025 11:00:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/revateam/trudataa.revateam.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/revateam/trudataa.revateam.com/config/app.php on line 16
